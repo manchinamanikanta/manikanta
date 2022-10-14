@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul{
+                list-style-type:none;
+                padding:0;
+                margin:0;
+                background-color:magenta;
+                overflow:hidden;
+            }
+            li{
+                float:left;
+            }
+            li a:hover{
+                background-color:green;
+            }
+            li a{
+                display:black;
+                color:black;
+                padding:18px;
+            }
+        </style>
+        <title>
+            rce login
+        </title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="#">login</a></li>
+        </ul>
+        <form>
+            <table>
+                <tr>
+            <td><label>usename</label></td>
+           <td><input type="text"></td>
+            </tr>
+            <tr>
+            <br>
+            <td><label>password</label></td>
+            <td><input type="password"></td>
+            </tr>
+            <br>
+            <td><label>mobile number</label></td>
+            <td><input type="number"></td>
+        </tr>
+            </table>
+            <td><input type="submit" style="margin-left:100px;"></td>
+            <td><input type="reset"></td>
+            <td><a href="#">new user</a></td>    
+        </form>
+    </body>
+</html>
